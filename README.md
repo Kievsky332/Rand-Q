@@ -48,8 +48,8 @@ Rand-Q/
 
 ## Ссылки
 
-- **Демо-версия (Live):** [kievsky332.github.io/BuSsite](https://kievsky332.github.io/Rand-Q/)
-- **Исходный код:** [github.com/Kievsky332/BuSsite](https://github.com/Kievsky332/Rand-Q)
+- **Демо-версия (Live):** [kievsky332.github.io/Rand-Q](https://kievsky332.github.io/Rand-Q/)
+- **Исходный код:** [github.com/Kievsky332/Rand-Q](https://github.com/Kievsky332/Rand-Q)
 
 ---
 
