@@ -34,15 +34,17 @@ function poisk(){
         let generate = Math.floor(Math.random() * defaul.length) ; 
         console.log(generate+":"+defaul[generate]+query.value);
         window.location.href = defaul[generate]+query.value;
-    }else if(hasQ){
-        let generate = Math.floor(Math.random() * defaul.length) ; 
-        console.log(generate+":"+defaul[generate]+query1);
-        window.location.href = defaul[generate]+query1;        
     }else{
         alert("Нету текста!")
     };
 };
-
+function poiskQ(){
+    if(hasQ){
+        let generate = Math.floor(Math.random() * defaul.length) ; 
+        console.log(generate+":"+defaul[generate]+query1);
+        window.location.href = defaul[generate]+query1;        
+    }
+}
 
 button.addEventListener("click", () => {
     poisk();
@@ -59,6 +61,6 @@ query.addEventListener('keydown', (event) => {
         }
     }
 });
-poisk()
+poiskQ()
 
 
