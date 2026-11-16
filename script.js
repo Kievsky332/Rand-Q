@@ -25,13 +25,19 @@ console.log("Всего значений: "+(defaul.length));
 
 const button = document.getElementById("myButton");
 const query = document.getElementById("query");
-
+const params = new URLSearchParams(window.location.search);
+const query1 = params.get('q');   
+const hasQ = params.has('q'); 
 
 function poisk(){
     if (query.value.trim() !==""){
         let generate = Math.floor(Math.random() * defaul.length) ; 
         console.log(generate+":"+defaul[generate]+query.value);
         window.location.href = defaul[generate]+query.value;
+    }else if(hasQ){
+        let generate = Math.floor(Math.random() * defaul.length) ; 
+        console.log(generate+":"+defaul[generate]+query1);
+        window.location.href = defaul[generate]+query1;        
     }else{
         alert("Нету текста!")
     };
