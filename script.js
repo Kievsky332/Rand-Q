@@ -59,5 +59,6 @@ query.addEventListener('keydown', (event) => {
         }
     }
 });
+poisk()
 
 
