@@ -34,8 +34,7 @@
 
     if(hasQ){
         let generate = Math.floor(Math.random() * defaul.length) ; 
-        console.log(generate+":"+defaul[generate]+query1);
-        window.location.replace(defaul[generate]+query1);  
+        window.location.replace(defaul[generate]+encodeURIComponent(query1));  
     }
     </script>
 	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
