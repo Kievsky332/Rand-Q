@@ -5,31 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rand-Q</title>
     <script>
-const query1 = params.get('q');   
-const hasQ = params.has('q'); 
-const defaul = [
-    "https://www.google.com/search?q=",
-    "https://www.reddit.com/search/?q=",
-    "https://www.youtube.com/results?search_query=",
-    "https://pinterest.com/search/pins/?q=",
-    "https://search.yahoo.com/search?p=",
-    "https://ya.ru/search/?text=",
-    "https://duckduckgo.com/?q=",
-    "https://ru.wikipedia.org/w/index.php?search=",
-    "https://luram.sorav.ru/luram/?q=",
-    "https://www.baidu.com/s?wd=",
-    "https://www.bing.com/search?q=",
-    "https://www.ecosia.org/search?q=",
-    "https://www.startpage.com/sp/search?query=",
-    "https://search.brave.com/search?q=",
-    "https://yep.com/web?q=",
-    "https://rutube.ru/search/?query=",
-    "https://github.com/search?q=",
-    "https://www.100searchengines.com/?q=",
-    "https://commons.wikimedia.org/w/index.php?search=",
-    "https://tenor.com/search/",
-    "https://www.flaticon.com/search?word="
-];
+	const query1 = params.get('q');   
+	const hasQ = params.has('q'); 
+	const defaul = [
+	    "https://www.google.com/search?q=",
+	    "https://www.reddit.com/search/?q=",
+	    "https://www.youtube.com/results?search_query=",
+	    "https://pinterest.com/search/pins/?q=",
+	    "https://search.yahoo.com/search?p=",
+	    "https://ya.ru/search/?text=",
+	    "https://duckduckgo.com/?q=",
+	    "https://ru.wikipedia.org/w/index.php?search=",
+	    "https://luram.sorav.ru/luram/?q=",
+	    "https://www.baidu.com/s?wd=",
+	    "https://www.bing.com/search?q=",
+	    "https://www.ecosia.org/search?q=",
+	    "https://www.startpage.com/sp/search?query=",
+	    "https://search.brave.com/search?q=",
+	    "https://yep.com/web?q=",
+	    "https://rutube.ru/search/?query=",
+	    "https://github.com/search?q=",
+	    "https://www.100searchengines.com/?q=",
+	    "https://commons.wikimedia.org/w/index.php?search=",
+	    "https://tenor.com/search/",
+	    "https://www.flaticon.com/search?word="
+	];
 
     if(hasQ){
 	    window.stop(); 
@@ -38,11 +38,11 @@ const defaul = [
         window.location.replace = defaul[generate]+query1;        
     }
     </script>
-	<script src="script.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+VIC+WA+NT+Hand:wght@400..700&display=swap" rel="stylesheet">
+	<script src="script.js" defer></script>
     <noscript>
 
           <style>
