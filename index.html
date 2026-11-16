@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rand-Q</title>
     <script>
+	const params = new URLSearchParams(window.location.search);
 	const query1 = params.get('q');   
 	const hasQ = params.has('q'); 
 	const defaul = [
