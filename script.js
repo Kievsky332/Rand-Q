@@ -3,7 +3,6 @@ console.log("Всего значений: "+(defaul.length));
 
 const button = document.getElementById("myButton");
 const query = document.getElementById("query");
-const params = new URLSearchParams(window.location.search);
 
 function poisk(){
     if (query.value.trim() !==""){
