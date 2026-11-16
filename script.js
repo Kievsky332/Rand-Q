@@ -26,8 +26,6 @@ console.log("Всего значений: "+(defaul.length));
 const button = document.getElementById("myButton");
 const query = document.getElementById("query");
 const params = new URLSearchParams(window.location.search);
-const query1 = params.get('q');   
-const hasQ = params.has('q'); 
 
 function poisk(){
     if (query.value.trim() !==""){
@@ -38,13 +36,7 @@ function poisk(){
         alert("Нету текста!")
     };
 };
-function poiskQ(){
-    if(hasQ){
-        let generate = Math.floor(Math.random() * defaul.length) ; 
-        console.log(generate+":"+defaul[generate]+query1);
-        window.location.href = defaul[generate]+query1;        
-    }
-}
+
 
 button.addEventListener("click", () => {
     poisk();
@@ -61,6 +53,6 @@ query.addEventListener('keydown', (event) => {
         }
     }
 });
-poiskQ()
+
 
 
